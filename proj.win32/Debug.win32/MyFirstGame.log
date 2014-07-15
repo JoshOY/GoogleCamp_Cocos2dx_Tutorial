@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/7/15 20:23:47。
+     1>项目“F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\MyFirstGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Programming\VisualStudio2013\VC\bin\CL.exe /c /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\cocos2dx" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\cocos2dx\include" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\cocos2dx\platform\win32" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\external" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\CocosDenshion\include" /I"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\SecondScene.cpp
+         SecondScene.cpp
+       PreLinkEvent:
+         if not exist "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\" mkdir "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\"
+         xcopy /Y /Q "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         F:\Programming\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\MyFirstGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\MyFirstGame.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\MyFirstGame.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\SecondScene.obj
+         Debug.win32\main.obj
+         "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\libcocos2d.lib"
+         "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\libExtensions.lib"
+         "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\libBox2D.lib"
+         "F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\libchipmunk.lib"
+         MyFirstGame.vcxproj -> F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\Debug.win32\MyFirstGame.exe
+     1>已完成生成项目“F:\Programming\cocos2d-x-2.2.5\projects\MyFirstGame\proj.win32\MyFirstGame.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.17
